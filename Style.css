@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: grid;
+    place-items: center;
+
+}
+
+#k1 {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: #2b304d;
+}
+#k2 {
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: black;
+}
+.border-radius{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.border-radius1{
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.border-radius:hover{
+    border:2px solid #0B2447;
+}
+#wind_degrees{
+    transform-origin: 50% 50%;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: #6f707d;
+    font-family: 'Marcellus', serif;
+}
+
+#heading {
+    font-size: 55px;
+    color: #2b304d;
+}
+
+.temp {
+    place-items: center;
+}
+
+.temp-details>p>span,
+.grey {
+    color: #a3acc1;
+    font-size: 12px;
+}
+
+.fa {
+    color: #a5a5b1
+}
+
+*:focus {
+    outline: none;
+}
